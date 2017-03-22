@@ -14,3 +14,5 @@ pub mod sse4_2;
 pub mod avx;
 #[cfg(any(feature = "doc", target_feature = "avx2"))]
 pub mod avx2;
+#[cfg(any(feature = "doc", target_feature = "fma"))]
+pub mod fma;
